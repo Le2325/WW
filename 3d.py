@@ -19,8 +19,8 @@ def keep_alive():
     t.start()
 
 TOKEN = os.environ.get("TOKEN")  # نخلي التوكن في Environment Variable
-GUILD_ID = 123456789012345678
-VOICE_CHANNEL_ID = 123456789012345678
+GUILD_ID = 1281246310443515986
+VOICE_CHANNEL_ID = 1281248207250133145
 
 intents = discord.Intents.default()
 intents.guilds = True
